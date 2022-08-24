@@ -1,2 +1,2 @@
 # redes-sociais
- Projeto em grupo de rede social
+ Projeto em grupo de redes sociais
