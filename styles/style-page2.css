@@ -1,8 +1,52 @@
+body {
+    color: #0000ff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     background-color: #ADD8E6;
-    padding: 25px;
+    border: 3px solid #000000;
+    padding: 5px;
     border-radius: 10px;
-    text-decoration: none;
     width: 100%;
-    }
+    display:block; 
+    height: 50%;
+    position: relative;
+    box-sizing: content-box;
+    text-decoration: none;
 
+}
+
+nav img {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    max-width: 90px;
+    padding: 15px;
+    
+}
+
+#header-image {
+  justify-content: bottom;
+  
+}
+
+#user-photo{
+    max-width: 90px;
+}
+
+#user-column {
+    float: right;
+}
+
+#menu-column {
+    float: left;
+}
+
+#user-posts {
+    text-align: center;
+    
+}
