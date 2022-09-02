@@ -1,60 +1,57 @@
-body {
-    color: #0000ff;
+main {
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    width: 100%;
+    margin: 5px;
 }
 
 header {
     background-color: #ADD8E6;
-    border: 3px solid #000000;
+    margin: auto;
     padding: 5px;
-    border-radius: 10px;
     width: 100%;
     display:block; 
-    height: 70px;
     position: relative;
-    box-sizing: content-box;
-    text-decoration: none;
-
+    width: 100%;
 }
-
-header div {
-    width: 33%;
-    float: left;
-}
-
-#div-pure{
+h2 {
+    background-color: white;
+    justify-content: center;
     text-align: center;
+    border-radius: 5px;
 }
 
-#div-img{
-    text-align: right;
+.left-column {
+    border-right: 5px solid  #ADD8E6 ;
+    padding: 25px;
 }
 
-#nav-icon{
-    top: 0;
-    right: 0;
-    height: auto;
-    width: auto;
-    max-width: 40px;
+.center-column {
+    padding: 25px;
+    background-color: #F8F9FA;
+}
+
+.right-column {
+    border-left: 5px solid  #ADD8E6 ;
+    padding: 25px;
+    position: fixed right;
+    background-color: #F8F9FA;
+}
+
+.posts {
     padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#title {
+    background-color: #ADD8E6;
+    margin-bottom: 15px;;
 }
 
 #user-photo{
-    max-width: 90px;
+    max-width: 180px;
 }
-
-#menu-column {
-    float: left;
-}
-
-#user-posts {
-    text-align: center;
-    
-}
-
-#user-column {
-    float: right;
-}
-
 
