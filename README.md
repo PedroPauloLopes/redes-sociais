@@ -1,8 +1,10 @@
-# redes-sociais
-Projeto em grupo sobre redes sociais
+<h1 align="center"> Redes Socias </h1>
 
-<img src="imagens/Pure Beer Bar.png" align="right" width="300">
+![Projeto em grupo sobre redes sociais](images/Pure%20Beer%20Bar.png)
 
-[index.html] (#redes-sociais/pag-index/index-html)
-[home.html] (#redes-sociais/pag-home/home-html)
-[cadastro.html] (#redes-sociais/pag-cadastro/cadastro-html)
+
+[Página index] (#/pag-index/index-html)
+[Página home] (https://github.com/pedroplvs/redes-sociais/tree/main/pag-home)
+[Página de cadastro] (https://github.com/pedroplvs/redes-sociais/tree/main/pag-cadastro)
+
+
