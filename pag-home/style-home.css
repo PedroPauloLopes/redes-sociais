@@ -51,6 +51,11 @@ footer {
     
 }
 
+.card-right {
+    box-shadow: 3px 3px 5px;
+    background-color: #F8F9FA;
+}
+
 .card-img-top {
     height: 180px;
     width: 80px;
@@ -64,11 +69,6 @@ footer {
 .card-text {
     justify-content: center;
     text-align: center;
-}
-
-.user-photo {
-    margin-top: 15px;
-    margin-left: 50px;
 }
 
 .center-column {
@@ -95,5 +95,6 @@ footer {
 
 #user-photo{
     max-width: 180px;
+    padding: 10px;
 }
 
