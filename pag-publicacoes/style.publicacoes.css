@@ -53,7 +53,9 @@ footer {
 
 .card-right {
     box-shadow: 3px 3px 5px;
-    background-color: #F8F9FA;
+    background-color: #FFFFFF;
+    padding: 10px;
+
 }
 
 .card-img-top {
