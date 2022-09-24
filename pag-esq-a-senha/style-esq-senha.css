@@ -4,11 +4,57 @@
     align-items: center;
     border-radius: 10px;
     text-decoration: none;
-    display: flex;
- }
+    flex-direction: column;
+    padding: 35px;
+    height: 320px;    
+    width: 355px;    
+}   
 
  .area-login{
-    display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    border-radius: 10px;
+    display: flex;    
+
 }
+
+.login form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    }
+    
+    .login input{
+        margin-top: 10px;
+        border: none;
+        height: 45px;
+        outline: none;
+        padding-left: 10px;
+        border-radius: 10px;
+    }
+    
+    input::placeholder{
+        font-size: 16px;
+    }
+
+    
+    .btn{
+        background-color: #0000ff !important;
+        font-size: 20px;
+        color: #ffffff !important;
+        cursor: pointer;
+        border-radius: 10px !important;
+        margin-top: 45px;
+        height: 45px;
+        width: 280px;
+    }
+
+    button{
+        color: #ffffff;
+        border-radius: 10px;
+        background-color: #0000ff;
+        border: none;
+        font-size: 20px !important;
+        align-items: center !important;
+    }
