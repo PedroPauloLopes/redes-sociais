@@ -44,6 +44,8 @@ footer {
 
 .card {
     box-shadow: 3px 3px 5px;
+    padding: 5px;
+    margin: 5px;
 }
 
 .card:hover {
@@ -51,10 +53,13 @@ footer {
     
 }
 
-.card-right {
+.card-photo {
     box-shadow: 3px 3px 5px;
     background-color: #FFFFFF;
-    padding: 10px;
+    padding: 5px;
+    margin: 5px;
+    max-width: fit-content;
+    border-radius: 5px;
 
 }
 
@@ -71,21 +76,11 @@ footer {
 .card-text {
     justify-content: center;
     text-align: center;
+
 }
 
-.center-column {
-    padding: 25px;
-}
-
-.right-column {
-    margin-top: 0px;
-    padding: 25px;
-    float: right;
-    background-color: #ADD8E6;
-}
-
-.right {
-    position: center;
+.col-md-8 {
+    width: auto;
 }
 
 #title {
@@ -98,8 +93,4 @@ footer {
 #user-photo{
     max-width: 180px;
     padding: 10px;
-}
-
-.caixa-de-texto{
-    background-color: #F8F9FA;
 }

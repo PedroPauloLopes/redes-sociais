@@ -47,18 +47,14 @@ footer {
 
 .card {
     box-shadow: 3px 3px 5px;
+    padding: 5px;
+    margin: 5px;
 }
 
 .card:hover {
     transform: scale(1.02)
     
 }
-
-.card-right {
-    box-shadow: 3px 3px 5px;
-    background-color: #FFFFFF;
-    padding: 10px;
-    }
 
 .card-img-top {
     height: fit-content;
@@ -75,23 +71,6 @@ footer {
     text-align: center;
 }
 
-.center-column {
-    padding: 25px;
-}
-
-.right-column {
-    margin-top: 0px;
-    padding: 0px;
-    padding-top: 0px;
-    position: static sticky;
-    top: 0;
-    background-color: #ADD8E6;
-    
-}
-
-.right {
-    position: center;
-}
 
 #title {
     padding: 25px;
@@ -100,8 +79,4 @@ footer {
     justify-content: center;
 }   
 
-#user-photo{
-    max-width: 180px;
-    padding: 10px;
-}
 
