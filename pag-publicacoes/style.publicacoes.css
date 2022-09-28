@@ -45,7 +45,7 @@ footer {
 .card {
     box-shadow: 3px 3px 5px;
     padding: 5px;
-    margin: 5px;
+    margin-bottom: 12px;
 }
 
 .card:hover {
@@ -57,9 +57,17 @@ footer {
     box-shadow: 3px 3px 5px;
     background-color: #FFFFFF;
     padding: 5px;
-    margin: 5px;
-    max-width: fit-content;
     border-radius: 5px;
+    padding-bottom: 34px;
+
+}
+
+.card-photo-xl {
+    box-shadow: 3px 3px 5px;
+    background-color: #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
+    justify-content: center;
 
 }
 
@@ -81,6 +89,21 @@ footer {
 
 .col-md-8 {
     width: auto;
+}
+
+.pub-p {
+    background-color: #BDB76B;
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.card-section {
+    background-color: #FFFFFF;
 }
 
 #title {
