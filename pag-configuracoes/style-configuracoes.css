@@ -38,6 +38,11 @@ section{
     margin-bottom: 25px;
 }
 
+.btn-info{
+    background-color: #ADD8E6;
+
+}
+
 #buttons{
     display: flex;
     justify-content: space-around;
